@@ -1,4 +1,5 @@
 mod day1;
+mod day2;
 
 use std::env;
 fn main() {
@@ -13,6 +14,7 @@ fn main() {
 
     match day {
         1 => day1::run(),
+        2 => day2::run(),
         _ => println!("Day {} not implemented yet", day),
     }
 }
